@@ -1,0 +1,330 @@
+body{
+    background-image:url(teste.gif);
+    background-color: black;
+    
+}
+.header{
+    background-color: red;
+    height: 60px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-começo{
+    width: 250px;
+    margin-left: 40px;
+    font-weight: bold;
+    
+    justify-content: center;
+    
+}
+.inicio{
+    font-size: 28px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.header-fim{
+    width: 180px;
+    
+    font-weight: bold;
+}
+.materias{
+    display: inline-block;
+    font-size: 28px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.menu{
+    display: inline-block;
+    font-size: 28px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.capa-inicio{
+    height: 970px;
+    width: 100%;
+    
+    background-image: url(capa.gif);
+    margin: 0%;
+    background-size: cover;
+    text-align: center;
+    
+
+}
+.texto-capa{
+    margin: 0%;
+    padding-top: 300px;
+    font-size: 100px;
+    color: rgb(194, 192, 192);
+}
+
+
+.box{
+    
+    background-color: rgb(90, 4, 4);
+    width: 1100px;
+    height: 3000px;
+    margin-left: 220px;
+    border-radius: 20px;
+
+}
+p{
+    margin: 0%;
+    display:inline-block;
+}
+.conteudo-box{
+    padding-top: 50px;
+    margin-left: 100px;
+    color: rgb(165, 136, 99);
+    margin-right: 100px;
+    padding-bottom: 70px;
+    
+    
+}
+.exemplo{
+    width: 500px;
+    vertical-align: top;
+    text-align: center;
+    padding-right: 30px;
+    font-size: 25px;
+
+}
+.foto-minha{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: inline-block;
+    box-shadow: 10px 0 10px rgba(0,0,0,0.5);
+}
+.apresentação{
+    color: black;
+    font-weight: bold;
+    font-size:50px;
+    text-align: center;
+    margin: 0%;
+    padding-bottom: 50px;
+}
+.box-curriculo{
+    padding-top: 50px;
+    margin-left: 100px;
+    color: rgb(165, 136, 99);
+    margin-right: 100px;
+    padding-bottom: 70px;
+}
+.texto-curriculo{
+    color: black;
+    font-weight: bold;
+    font-size:50px;
+    text-align: center;
+    margin: 0%;
+    padding-bottom: 50px;
+}
+.curriculo{
+    
+    width: 430px;
+    height: 630px;
+
+}
+.container-curriculo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.acesso-curriculo{
+    margin-top: 60px;
+    height: 40px;
+    width: 150px;
+    margin-left: 370px;
+    display: block;
+    background-color: brown;
+    border-style: none;
+    border-radius: 6px;
+    font-size: 20px;
+    transition: background-color 0.15s, box-shadow 0.15s;
+}
+.acesso-curriculo:hover{
+    cursor: pointer;
+    background-color: rgb(114, 28, 28);
+    box-shadow: 5,5,9 rgba(0,0,0,0.7);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.box-portifolio{
+    padding-top: 50px;
+    margin-left: 100px;
+    color: rgb(165, 136, 99);
+    margin-right: 100px;
+    padding-bottom: 70px;
+}
+.texto-portifolio{
+    color: black;
+    font-weight: bold;
+    font-size:50px;
+    text-align: center;
+    margin: 0%;
+    padding-bottom: 50px;
+}
+.container-portifolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.portifolio{
+    width: 440px;
+    height: 240px;
+}
+.buton-portifolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.acesso-portifolio{
+    margin-top: 60px;
+    height: 40px;
+    width: 150px;
+    display: block;
+    background-color: brown;
+    border-style: none;
+    border-radius: 6px;
+    font-size: 20px;
+    transition: background-color 0.15s, box-shadow 0.15s;
+}
+.acesso-portifolio:hover{
+    cursor: pointer;
+    background-color: rgb(114, 28, 28);
+    box-shadow: 5,5,9 rgba(0,0,0,0.7);
+}
+.box-materias{
+    padding-top: 50px;
+    margin-left: 100px;
+    color: rgb(165, 136, 99);
+    margin-right: 100px;
+}
+.container-materias{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+.but-liguagens, .but-humanas, .but-natureza, .but-matematica, .but-tecnino, .but-outros, .img-ling, .img-hum, .img-nat, .img-mat, .img-tec, .img-out{
+    height: 270px;
+    width: 270px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    background-color: lightgray;
+    border-style: none;
+    border-radius: 8px;
+    transition:background-color 0.15s background-image 0.15s ;
+
+}
+
+.but-liguagens:hover, .but-humanas:hover, .but-natureza:hover, .but-matematica:hover, .but-tecnino:hover, .but-outros:hover{
+
+background-color: rgb(168, 168, 168);
+cursor: pointer;
+}
+.img-ling:hover, .img-hum:hover, .img-nat:hover, .img-mat:hover, .img-tec:hover, .img-out:hover{
+    background-color: rgb(168, 168, 168);
+}
+.img-ling:hover{
+    background-image: url(Linguagens-titulo.png);
+}
+.img-hum:hover{
+    background-image: url(humanas-titulo.png);
+}
+.img-nat:hover{
+    background-image: url(Natureza-titulo.png);
+}
+.img-mat:hover{
+    background-image: url(matematica-titulo.png);
+}
+.img-tec:hover{
+    background-image: url(tecnico-titulo.png);
+}
+.img-out:hover{
+    background-image: url(Outros-titulo.png);
+}
+
+.img-ling, .img-hum, .img-nat, .img-mat, .img-tec, .img-out{
+
+    margin: 0%;
+}
+
+.but-liguagens:active, .but-humanas:active, .but-natureza:active, .but-matematica:active, .but-tecnino:active, .but-outros:active, .img-ling:active, .img-hum:active, .img-nat:active, .img-mat:active, .img-tec:active, .img-out:active{
+    background-image: url(preto.jpg);
+}
+
+/*começo de linguagens*/
+
+.capa-linguagens{
+    height: 970px;
+    width: 100%;
+    
+    background-image: url(linguagens-capa.gif);
+    margin: 0%;
+    background-size: cover;
+    text-align: center;
+    
+
+}
+.conteudo-box-linguagens{
+    padding-top: 50px;
+    margin-left: 100px;
+    color: rgb(165, 136, 99);
+    margin-right: 100px;
+    padding-bottom: 70px;
+    border-style: solid;
+    border-color: aqua;
+}
+
+/*Começo humanas*/
+
+.capa-humanas{
+    height: 970px;
+    width: 100%;
+    
+    background-image: url(humanas-capa.gif);
+    margin: 0%;
+    background-size: cover;
+    text-align: center;
+    
+
+}
+.conteudo-box-humanas{
+    padding-top: 50px;
+    margin-left: 100px;
+    color: rgb(165, 136, 99);
+    margin-right: 100px;
+    padding-bottom: 70px;
+    border-style: solid;
+    border-color: aqua;
+}
+
+/*Começo natureza*/
+
+.capa-natureza{
+    height: 970px;
+    width: 100%;
+    
+    background-image: url(natureza-capa.gif);
+    margin: 0%;
+    background-size: cover;
+    text-align: center;
+    
+
+}
+.conteudo-box-natureza{
+    padding-top: 50px;
+    margin-left: 100px;
+    color: rgb(165, 136, 99);
+    margin-right: 100px;
+    padding-bottom: 70px;
+    border-style: solid;
+    border-color: aqua;
+}
